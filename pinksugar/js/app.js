@@ -20,7 +20,7 @@ $(function () {
 //animate
 $(document).ready(function () {
 //start hover h1
-    $("h1 span").hover(
+    $("h1 span").click(
         function () {
             $(this).addClass("animated tada");
         },
@@ -29,13 +29,7 @@ $(document).ready(function () {
         });
 //end hover h1
 
-    $("#blow").hover(
-        function () {
-            $(this).addClass("animated shake");
-        },
-        function () {
-            $(this).removeClass("animated shake");
-        });
+    
 });
 
 

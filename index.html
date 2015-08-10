@@ -12,62 +12,82 @@
 </head>
 <body>
 
+<!-- Navigation -->
+
+<div class="contain-to-grid sticky">
 
 
+	<nav class="top-bar" data-topbar>
 
-<div class="off-canvas-wrap" data-offcanvas>
+		<ul class="title-area">
 
-	<div class="inner-wrap">
+			<li class="name">
 
-		<nav class="header"></nav>
+				<h1><a class="logo show-for-small-only" href="#"><img src="images/alf-putih-50.png"/></a></h1>
 
-		<a class="right-off-canvas-toggle" href="#">
+			</li>
 
-			<div class="menu">
+			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 
-				<div class="top-bar"></div>
+		</ul>
 
-				<div class="middle-bar"></div>
 
-				<div class="bottom-bar"></div>
+		<section class="top-bar-section">
+
+
+			<div class="tb-wrapper hide-for-small-only">
+
+				<div class="logo">
+
+					<a href="index.html"><img src="images/alf-putih.png" alt="Home"></a>
+
+				</div>
 
 			</div>
 
-		</a>
 
-		</nav>
+			<!-- Right Nav Section -->
 
-		<!-- Off Canvas Menu -->
-
-		<aside class="right-off-canvas-menu">
-
-			<!-- whatever you want goes here -->
-
-			<ul class="side-nav main blue" data-magellan-expedition="fixed">
-				<li><a class="side-nav" href="#">Home</a></li>
-				<li data-magellan-arrival="portfolio"><a class="side-nav" href="#portfolio">Portfolio</a></li>
-				<li><a data-reveal-id="resume" class="side-nav">About me</a></li>
+			<ul class="right">
+				<li>
+					<a data-reveal-id="resume">About Me</a>
+				</li>
 			</ul>
 
 
-		</aside>
-		<section class="hero">
-			<div class="row">
-				<div class=" large-6 large-centered column">
-					<h1 class="large-text-center medium-text-center small-text-center">
-						<div id="vader"></div>
-						<div id="luke"></div>
-					</h1>
-					<!--<h1 class="text-center">Crafting elegant experiences with simplicity</h1>-->
-				</div>
-			</div>
-		</section>
-		<!-- main content goes here -->
-		<!-- close the off-canvas menu -->
-		<a class="exit-off-canvas"></a>
-	</div>
-</div>
+			<!-- Left Nav Section -->
 
+			<ul class="left">
+
+				<li data-magellan-arrival="portfolio" >
+					<a href="#portfolio">Portfolio</a>
+				</li>
+
+			</ul>
+
+
+		</section>
+
+	</nav>
+
+
+</div>
+<!-- /navigation -->
+
+
+
+
+<section class="hero">
+	<div class="row">
+		<div class=" large-6 large-centered column">
+			<h1 class="large-text-center medium-text-center small-text-center">
+				<div id="vader"></div>
+				<div id="luke"></div>
+			</h1>
+			<!--<h1 class="text-center">Crafting elegant experiences with simplicity</h1>-->
+		</div>
+	</div>
+</section>
 
 <div class="row collapse">
 	<div class="small-12 medium-12 large-4 large-offset-4 small-text-center large-text-center columns">
@@ -405,7 +425,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/js/foundation/foundation.magellan.min.js"></script>
 <script src="http://cdn.jsdelivr.net/theaterjs/1.4.2/theater.min.js"></script>
 <script src="js/theater.js"></script>
-<script src="js/offcanvas.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>

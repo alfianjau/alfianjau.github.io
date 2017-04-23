@@ -1,10 +1,14 @@
-# alfianjau.github.io
-Journey into the unlimited awesomeness
+# My Personal portfolio site
 
-Yap this is my portfolio page which made with help of:
+Handcrafted with loves with the use from great technologies:
+
+* Passions
+* Sass
+* CSS Animations
+* Gulp
+* browser-sync
+* BEM methodologies
+* ITCSS
+* and many more other toolings
 
 
-Bootstrap Framework + fontAwesome
-
-Startbootstrap Agency theme.
-Pictonic font icon for IT brands icon.
